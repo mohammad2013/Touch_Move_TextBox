@@ -1,8 +1,9 @@
 Zoom&Rotaition&Pan with Touch_Point
 ==================
-/*create your movie clip and named  =  pic  */
+/*create your movie clip and named  =  pic  
+create two oval shape and change to movie clip, class named = _oval*/
 
-
+Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT;
 var points:Array = new Array();
 var array_rotate:Array = new Array();
 var array_scale:Array = new Array();
